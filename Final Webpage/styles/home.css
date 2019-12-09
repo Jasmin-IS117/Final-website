@@ -1,0 +1,38 @@
+/*DEVELOPER: Jasmin Lim, IS117-001, Fall 2019 */
+body {
+		background-image: url("images/njit.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+		font-family: 'Carrois Gothic';
+}
+div.welcome {
+  text-align: center;
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #333333;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+
+h4{
+	text-align: center;
+}
+
+/* customizable snowflake styling */
+ #snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+

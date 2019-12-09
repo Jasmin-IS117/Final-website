@@ -1,0 +1,11 @@
+/*DEVELOPER: Jasmin Lim, IS117-001, Fall 2019 */
+body {
+		background-image: url("images/njit.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+		font-family: 'Carrois Gothic';
+}
+h2{
+	text-align: center;
+}
